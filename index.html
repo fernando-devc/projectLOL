@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="header-site">
+      <nav class="nav-site">
+        <div class="nav-title">
+          <img src="./assets/img/Riot_Games_2006.svg" />
+        </div>
+        <div class="spacer-site"></div>
+        <div class="nav-action">
+          <button onclick="OpenDrawer()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="menuIcon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+    <div class="BackDrop" id="backdrop-menu-site-1" onclick="CloseDrawer()">
+      <div
+        class="Drawer"
+        id="drawer-menu-site-1"
+        onclick="DraweAction(event)"
+      ></div>
+    </div>
+    <script type="text/javascript" src="./service/index.js"></script>
+  </body>
+</html>

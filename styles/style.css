@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f3f3;
+}
+
+.header-site {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    box-shadow: -2px -3px 7px 0px rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.nav-site {
+    display: flex;
+    height: 100%;
+    padding: 0 20px 0 20px;
+    align-items: center;
+}
+
+.nav-title {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-title img {
+    height: 50%;
+    width: 100px;
+}
+
+.spacer-site {
+    flex: 1;
+}
+
+.nav-action {}
+
+.nav-action button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menuIcon {
+    height: 25px;
+    width: 25px;
+}
+
+.BackDrop {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.Drawer {
+    height: 100vh;
+    left: -200%;
+    background-color: white;
+    width: 300px;
+}
